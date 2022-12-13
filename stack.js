@@ -13,13 +13,14 @@ class Node {
  *  remove from the top or add to the top. */
 
 class Stack {
-  top = null;
-  size = 0;
+  constructor() {
+    this._ll = new LinkedList();
+  }
 
   /** push(val): add new value to the top of the stack. Returns undefined. */
 
   push(val) {
-
+    
   }
 
   /** pop(): remove the node from the top of the stack
